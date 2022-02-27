@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #D7D4FF;
+}
+
+.background-white{
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.content{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.first-break{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-break .title{
+  width: 349px;
+}
+
+.first-break .title h1{
+  font-family: 'Merriweather';
+  font-size: 36px;
+}
+
+.first-break .title p{
+  font-family: 'Lato';
+  font-size: 19px;
+  color: #555555;
+  margin-top: 18px;
+  margin-bottom: 60px;
+}
+
+.first-break .title button{
+  padding: 15px;
+  width: 155px;
+  font-family: 'Lato';
+  font-size: 20px;
+  border: none;
+  background-color: #6C63FF;
+  color: white;
+  box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+  border-radius: 5px;
+}
+
+.grid-cards{
+  display: grid;
+  background-color: none;
+  margin-top: 100px;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 20px;
+}
+
+.card{
+  height: 423px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img{
+  max-width: 100%;
+  height: 222px;
+  background-color: #FF6363
+  ;
+}
+
+.card-content{
+  padding: 30px;
+  max-width: 100%;
+}
+
+.card-content h3{
+  font-family: 'Merriweather';
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #2B2B2B;
+}
+
+
+.card-content p{
+  font-family: 'Lato';
+  font-size: 18px;
+  color: #555555;
+}
+
+.three-break{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.three-break h2{
+  font-family: 'Merriweather';
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.three-break form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.three-break form input, textarea{
+  padding: 20px;
+  width: 100%;
+  font-family: 'Lato';
+  font-size: 18px;
+  margin-bottom: 15px ;
+  border: none;
+  border-radius: 5px;
+}
+
+.three-break form button{
+  padding: 15px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
